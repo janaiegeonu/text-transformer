@@ -5,7 +5,7 @@ This project is based on Go Language, and it's a text transforming program that 
 ------------------------------------
 ### FEATURES OF THIS PROGRAM
 
-1. **Text Transforming**: it has features like fixing poorly writing punctuations, quotes, articles and gives the user a power to change the casing of any words into an UPPERCASE, lowercase or Titlecase and also have addition features of coverting the case of multiple text too by using some special markers e.g (up) for uppercasing, (low) for lowercasing and (cap) for Tile case, and adding number inside the maker bracket allowes the user to transform mulitiple text together with that marker.
+1. **Text Transforming**: it has features like fixing poorly written punctuations, quotes, articles and gives the user a power to change the casing of any words into an UPPERCASE, lowercase or Titlecase and also have addition features of coverting the case of multiple text too by using some special markers e.g (up) for uppercasing, (low) for lowercasing and (cap) for Tile case, and adding number inside the maker bracket allowes the user to transform mulitiple text together with that marker.
 
 2. **Base Transforming**: this feature allow the user to convert base text (e.g Binary and Hexadecimal) into a decimal base with special markers like (bin) and (hex), transforming the text before the marker into decimal
 
@@ -33,6 +33,7 @@ This project is based on Go Language, and it's a text transforming program that 
 
 This program carries two text files (sample.txt and result.txt)... The sample.txt accepts the text from the user, structured or poorly structured and to run the program the user uses a command in the terminal which is *(go run . sample.txt result.txt)* after hitting ENTER, the inputed text passes through the program functions(i.e. helper functions) and it identifies any poorly structured text and it polish or refine it into a modified text, to see the result the user can go into the result.txt file or type in a command to see the result directly in the terminal which is (cat result.txt)
 
+-----------------------
 
 
 
